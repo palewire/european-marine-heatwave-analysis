@@ -1,0 +1,540 @@
+{
+  "source_name": "VLIZ/Marine Regions IHO Sea Areas v3",
+  "wfs_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs",
+  "rest_api_url": "https://www.marineregions.org/rest/getGazetteerRecordsByType.json/IHO%20Sea%20Area/",
+  "retrieval_date": "2026-08-12T17:14:08Z",
+  "n_total_iho": 101,
+  "europe_rule": "Centroid lon in [-35, 70] AND centroid lat > 25N AND not a parent ocean AND not in explicit-exclude set. Greenland/Barents/White seas explicitly included. Bering Sea excluded (antimeridian false positive).",
+  "included": [
+    {
+      "mrgid": 1905,
+      "name": "Mediterranean Sea",
+      "reason": "centroid lon=15.1\u00b0E lat=38.0\u00b0N within European range"
+    },
+    {
+      "mrgid": 2350,
+      "name": "North Sea",
+      "reason": "centroid lon=3.8\u00b0E lat=56.0\u00b0N within European range"
+    },
+    {
+      "mrgid": 2351,
+      "name": "Celtic Sea",
+      "reason": "centroid lon=-7.8\u00b0E lat=49.5\u00b0N within European range"
+    },
+    {
+      "mrgid": 2353,
+      "name": "Norwegian Sea",
+      "reason": "centroid lon=6.1\u00b0E lat=68.7\u00b0N within European range"
+    },
+    {
+      "mrgid": 2356,
+      "name": "Greenland Sea",
+      "reason": "explicitly included (high-latitude European sea)"
+    },
+    {
+      "mrgid": 2357,
+      "name": "Irish Sea and St. George's Channel",
+      "reason": "centroid lon=-4.6\u00b0E lat=53.5\u00b0N within European range"
+    },
+    {
+      "mrgid": 2359,
+      "name": "Bay of Biscay",
+      "reason": "centroid lon=-4.0\u00b0E lat=45.6\u00b0N within European range"
+    },
+    {
+      "mrgid": 2374,
+      "name": "Kattegat",
+      "reason": "centroid lon=11.2\u00b0E lat=56.4\u00b0N within European range"
+    },
+    {
+      "mrgid": 2379,
+      "name": "Skagerrak",
+      "reason": "centroid lon=9.5\u00b0E lat=58.5\u00b0N within European range"
+    },
+    {
+      "mrgid": 2389,
+      "name": "La Manche",
+      "reason": "centroid lon=-1.9\u00b0E lat=49.8\u00b0N within European range"
+    },
+    {
+      "mrgid": 2401,
+      "name": "Baltic Sea",
+      "reason": "centroid lon=23.4\u00b0E lat=59.9\u00b0N within European range"
+    },
+    {
+      "mrgid": 2402,
+      "name": "Gulf of Bothnia",
+      "reason": "centroid lon=21.3\u00b0E lat=63.4\u00b0N within European range [nested in MRGID 2401]"
+    },
+    {
+      "mrgid": 2407,
+      "name": "Gulf of Finland",
+      "reason": "centroid lon=30.2\u00b0E lat=61.1\u00b0N within European range [nested in MRGID 2401]"
+    },
+    {
+      "mrgid": 2409,
+      "name": "Gulf of Riga",
+      "reason": "centroid lon=23.2\u00b0E lat=58.0\u00b0N within European range [nested in MRGID 2401]"
+    },
+    {
+      "mrgid": 3141,
+      "name": "Bristol Channel",
+      "reason": "centroid lon=-3.6\u00b0E lat=51.4\u00b0N within European range"
+    },
+    {
+      "mrgid": 3314,
+      "name": "Adriatic Sea",
+      "reason": "centroid lon=16.0\u00b0E lat=42.8\u00b0N within European range [nested in MRGID 1905]"
+    },
+    {
+      "mrgid": 3315,
+      "name": "Aegean Sea",
+      "reason": "centroid lon=25.4\u00b0E lat=38.1\u00b0N within European range [nested in MRGID 1905]"
+    },
+    {
+      "mrgid": 3319,
+      "name": "Black Sea",
+      "reason": "centroid lon=34.9\u00b0E lat=44.1\u00b0N within European range"
+    },
+    {
+      "mrgid": 3320,
+      "name": "Sea of Azov",
+      "reason": "centroid lon=37.5\u00b0E lat=46.2\u00b0N within European range [nested in MRGID 3319]"
+    },
+    {
+      "mrgid": 3322,
+      "name": "Balearic Sea",
+      "reason": "centroid lon=2.0\u00b0E lat=40.3\u00b0N within European range [nested in MRGID 1905]"
+    },
+    {
+      "mrgid": 3324,
+      "name": "Alboran Sea",
+      "reason": "centroid lon=-3.3\u00b0E lat=36.0\u00b0N within European range [nested in MRGID 1905]"
+    },
+    {
+      "mrgid": 3346,
+      "name": "Strait of Gibraltar",
+      "reason": "centroid lon=-5.7\u00b0E lat=36.0\u00b0N within European range [nested in MRGID 1905]"
+    },
+    {
+      "mrgid": 3351,
+      "name": "Ionian Sea",
+      "reason": "centroid lon=19.1\u00b0E lat=38.5\u00b0N within European range [nested in MRGID 1905]"
+    },
+    {
+      "mrgid": 3363,
+      "name": "Ligurian Sea",
+      "reason": "centroid lon=8.7\u00b0E lat=43.6\u00b0N within European range [nested in MRGID 1905]"
+    },
+    {
+      "mrgid": 3369,
+      "name": "Sea of Marmara",
+      "reason": "centroid lon=28.1\u00b0E lat=40.6\u00b0N within European range [nested in MRGID 1905]"
+    },
+    {
+      "mrgid": 3386,
+      "name": "Tyrrhenian Sea",
+      "reason": "centroid lon=12.4\u00b0E lat=41.0\u00b0N within European range [nested in MRGID 1905]"
+    },
+    {
+      "mrgid": 4247,
+      "name": "Barents Sea",
+      "reason": "explicitly included (high-latitude European sea)"
+    },
+    {
+      "mrgid": 4248,
+      "name": "White Sea",
+      "reason": "explicitly included (high-latitude European sea)"
+    },
+    {
+      "mrgid": 4279,
+      "name": "Mediterranean Sea - Western Basin",
+      "reason": "centroid lon=5.1\u00b0E lat=39.7\u00b0N within European range [nested in MRGID 1905]"
+    },
+    {
+      "mrgid": 4280,
+      "name": "Mediterranean Sea - Eastern Basin",
+      "reason": "centroid lon=23.1\u00b0E lat=33.9\u00b0N within European range [nested in MRGID 1905]"
+    },
+    {
+      "mrgid": 4283,
+      "name": "Inner Seas off the West Coast of Scotland",
+      "reason": "centroid lon=-6.4\u00b0E lat=56.5\u00b0N within European range"
+    }
+  ],
+  "excluded": [
+    {
+      "mrgid": 1904,
+      "name": "Indian Ocean",
+      "reason": "parent ocean \u2014 excluded"
+    },
+    {
+      "mrgid": 1906,
+      "name": "Arctic Ocean",
+      "reason": "parent ocean \u2014 excluded"
+    },
+    {
+      "mrgid": 1907,
+      "name": "Southern Ocean",
+      "reason": "parent ocean \u2014 excluded"
+    },
+    {
+      "mrgid": 1908,
+      "name": "North Pacific Ocean",
+      "reason": "parent ocean \u2014 excluded"
+    },
+    {
+      "mrgid": 1910,
+      "name": "South Pacific Ocean",
+      "reason": "parent ocean \u2014 excluded"
+    },
+    {
+      "mrgid": 1912,
+      "name": "North Atlantic Ocean",
+      "reason": "parent ocean \u2014 excluded"
+    },
+    {
+      "mrgid": 1914,
+      "name": "South Atlantic Ocean",
+      "reason": "parent ocean \u2014 excluded"
+    },
+    {
+      "mrgid": 4244,
+      "name": "East Siberian Sea",
+      "reason": "explicitly excluded (non-European or antimeridian artefact)"
+    },
+    {
+      "mrgid": 4245,
+      "name": "Laptev Sea",
+      "reason": "explicitly excluded (non-European or antimeridian artefact)"
+    },
+    {
+      "mrgid": 4246,
+      "name": "Kara Sea",
+      "reason": "explicitly excluded (non-European or antimeridian artefact)"
+    },
+    {
+      "mrgid": 4250,
+      "name": "Davis Strait",
+      "reason": "explicitly excluded (non-European or antimeridian artefact)"
+    },
+    {
+      "mrgid": 4251,
+      "name": "Hudson Strait",
+      "reason": "explicitly excluded (non-European or antimeridian artefact)"
+    },
+    {
+      "mrgid": 4252,
+      "name": "Hudson Bay",
+      "reason": "explicitly excluded (non-European or antimeridian artefact)"
+    },
+    {
+      "mrgid": 4253,
+      "name": "Baffin Bay",
+      "reason": "explicitly excluded (non-European or antimeridian artefact)"
+    },
+    {
+      "mrgid": 4254,
+      "name": "Lincoln Sea",
+      "reason": "explicitly excluded (non-European or antimeridian artefact)"
+    },
+    {
+      "mrgid": 4256,
+      "name": "Beaufort Sea",
+      "reason": "explicitly excluded (non-European or antimeridian artefact)"
+    },
+    {
+      "mrgid": 4257,
+      "name": "Chukchi Sea",
+      "reason": "explicitly excluded (non-European or antimeridian artefact)"
+    },
+    {
+      "mrgid": 4261,
+      "name": "Mozambique Channel",
+      "reason": "centroid lat -18.7\u00b0N below 25\u00b0N threshold"
+    },
+    {
+      "mrgid": 4262,
+      "name": "Gulf of Suez",
+      "reason": "explicitly excluded (non-European or antimeridian artefact)"
+    },
+    {
+      "mrgid": 4263,
+      "name": "Gulf of Aqaba",
+      "reason": "explicitly excluded (non-European or antimeridian artefact)"
+    },
+    {
+      "mrgid": 4264,
+      "name": "Red Sea",
+      "reason": "centroid lat 20.3\u00b0N below 25\u00b0N threshold"
+    },
+    {
+      "mrgid": 4265,
+      "name": "Gulf of Aden",
+      "reason": "centroid lat 12.8\u00b0N below 25\u00b0N threshold"
+    },
+    {
+      "mrgid": 4266,
+      "name": "Persian Gulf",
+      "reason": "explicitly excluded (non-European or antimeridian artefact)"
+    },
+    {
+      "mrgid": 4267,
+      "name": "Gulf of Oman",
+      "reason": "centroid lat 24.2\u00b0N below 25\u00b0N threshold"
+    },
+    {
+      "mrgid": 4268,
+      "name": "Arabian Sea",
+      "reason": "centroid lat 12.5\u00b0N below 25\u00b0N threshold"
+    },
+    {
+      "mrgid": 4269,
+      "name": "Laccadive Sea",
+      "reason": "centroid lon 76.3\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4273,
+      "name": "Bay of Bengal",
+      "reason": "centroid lon 87.0\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4274,
+      "name": "Andaman Sea",
+      "reason": "centroid lon 95.8\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4275,
+      "name": "Malacca Strait",
+      "reason": "centroid lon 99.5\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4276,
+      "name": "Great Australian Bight",
+      "reason": "centroid lon 131.9\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4286,
+      "name": "Gulf of Guinea",
+      "reason": "centroid lat 2.4\u00b0N below 25\u00b0N threshold"
+    },
+    {
+      "mrgid": 4287,
+      "name": "Caribbean Sea",
+      "reason": "centroid lon -74.4\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4288,
+      "name": "Gulf of Mexico",
+      "reason": "centroid lon -89.2\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4289,
+      "name": "Bay of Fundy",
+      "reason": "centroid lon -65.3\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4290,
+      "name": "Gulf of Saint Lawrence",
+      "reason": "centroid lon -64.8\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4291,
+      "name": "Labrador Sea",
+      "reason": "centroid lon -54.0\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4300,
+      "name": "Philippine Sea",
+      "reason": "centroid lon 133.1\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4302,
+      "name": "Tung Hai",
+      "reason": "centroid lon 124.8\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4303,
+      "name": "Yellow Sea",
+      "reason": "centroid lon 122.5\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4306,
+      "name": "Seto Naikai",
+      "reason": "centroid lon 133.3\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4307,
+      "name": "Japan Sea/East Sea",
+      "reason": "centroid lon 134.0\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4309,
+      "name": "Sea of Okhotsk",
+      "reason": "centroid lon 151.2\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4310,
+      "name": "Bering Sea",
+      "reason": "explicitly excluded (non-European or antimeridian artefact)"
+    },
+    {
+      "mrgid": 4312,
+      "name": "Gulf of Alaska",
+      "reason": "centroid lon -150.0\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4313,
+      "name": "Coastal Waters SE Alaska & BC",
+      "reason": "centroid lon -129.6\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4314,
+      "name": "Gulf of California",
+      "reason": "centroid lon -110.9\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4325,
+      "name": "Rio de La Plata",
+      "reason": "centroid lon -57.4\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4332,
+      "name": "South China Sea",
+      "reason": "centroid lon 112.2\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4334,
+      "name": "Gulf of Thailand",
+      "reason": "centroid lon 102.2\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4336,
+      "name": "Singapore Strait",
+      "reason": "centroid lon 104.0\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4338,
+      "name": "Java Sea",
+      "reason": "centroid lon 112.0\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4339,
+      "name": "Makassar Strait",
+      "reason": "centroid lon 118.4\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4340,
+      "name": "Bali Sea",
+      "reason": "centroid lon 115.8\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4341,
+      "name": "Flores Sea",
+      "reason": "centroid lon 120.0\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4343,
+      "name": "Savu Sea",
+      "reason": "centroid lon 121.8\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4344,
+      "name": "Timor Sea",
+      "reason": "centroid lon 127.9\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4347,
+      "name": "Arafura Sea",
+      "reason": "centroid lon 136.5\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4349,
+      "name": "Banda Sea",
+      "reason": "centroid lon 126.8\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4350,
+      "name": "Teluk Bone",
+      "reason": "centroid lon 121.0\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4351,
+      "name": "Ceram Sea",
+      "reason": "centroid lon 130.0\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4353,
+      "name": "Halmahera Sea",
+      "reason": "centroid lon 129.2\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4354,
+      "name": "Molukka Sea",
+      "reason": "centroid lon 125.9\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4355,
+      "name": "Teluk Tomini",
+      "reason": "centroid lon 121.7\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4358,
+      "name": "Sulu Sea",
+      "reason": "centroid lon 120.1\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4359,
+      "name": "Celebes Sea",
+      "reason": "centroid lon 121.2\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4360,
+      "name": "Bismarck Sea",
+      "reason": "centroid lon 147.4\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4361,
+      "name": "Solomon Sea",
+      "reason": "centroid lon 154.6\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4364,
+      "name": "Coral Sea",
+      "reason": "centroid lon 155.4\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4365,
+      "name": "Tasman Sea",
+      "reason": "centroid lon 161.1\u00b0 outside European range [-35, 70]"
+    },
+    {
+      "mrgid": 4366,
+      "name": "Bass Strait",
+      "reason": "centroid lon 147.8\u00b0 outside European range [-35, 70]"
+    }
+  ],
+  "nested": {
+    "2401": [
+      2402,
+      2407,
+      2409
+    ],
+    "3319": [
+      3320
+    ],
+    "1905": [
+      3314,
+      3315,
+      3322,
+      3324,
+      3346,
+      3351,
+      3363,
+      3369,
+      3386,
+      4279,
+      4280
+    ]
+  }
+}

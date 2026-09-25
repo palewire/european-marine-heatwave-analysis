@@ -1,0 +1,51 @@
+[project]
+name = "european-marine-heatwave-analysis"
+version = "0.1.0"
+description = "Data and code behind a Reuters analysis of European sea-surface temperatures in summer 2026"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dask>=2024.1",
+    "earthkit-transforms>=0.4",
+    "geopandas>=1.0",
+    "h5netcdf>=1.8.1",
+    "h5py>=3.16.0",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "rasterio>=1.4.4",
+    "xarray>=2024.1",
+    "xmhw @ git+https://github.com/palewire/xmhw@1006312ae693e8aef8bd3706b9afb431eca564a5",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = false
+
+[dependency-groups]
+dev = [
+    "cartopy>=0.26.0",
+    "ipykernel>=6.29",
+    "jupyterlab>=4.0",
+    "matplotlib>=3.8",
+    "nbclient>=0.10",
+    "nbformat>=5.10",
+    "ruff>=0.8",
+]
+
+[tool.ruff]
+line-length = 90
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "D"]
+ignore = ["D203", "D213"]
+
+[tool.ruff.lint.per-file-ignores]
+"analysis.ipynb" = ["D", "E501"]
+"review.ipynb" = ["D", "E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
