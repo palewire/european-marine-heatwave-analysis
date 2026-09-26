@@ -4,7 +4,7 @@ By [Ben Welsh](https://palewi.re/who-is-ben-welsh/)
 
 This repository contains data and code supporting a Reuters analysis of European sea-surface temperatures in summer 2026.
 
-Published September 26, 2026: ["Europe's seas are breaking heat records. Its fisheries are paying the price."]()
+Published September 26, 2026: ["Europe's seas are breaking heat records. Its fisheries are paying the price."](https://www.reuters.com/world/europe/how-europes-intensifying-marine-heatwaves-threaten-its-fisheries-2026-09-26/)
 
 The key findings of the data analysis are:
 
