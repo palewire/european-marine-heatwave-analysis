@@ -6,6 +6,8 @@ This repository contains data and code supporting a Reuters analysis of European
 
 Published September 26, 2026: ["Europe's seas are breaking heat records. Its fisheries are paying the price."](https://www.reuters.com/world/europe/how-europes-intensifying-marine-heatwaves-threaten-its-fisheries-2026-09-26/)
 
+[!["Europe's seas are breaking heat records. Its fisheries are paying the price."](https://raw.githubusercontent.com/palewire/european-marine-heatwave-analysis/refs/heads/main/data/story.gif)](https://www.reuters.com/world/europe/how-europes-intensifying-marine-heatwaves-threaten-its-fisheries-2026-09-26/)
+
 The key findings of the data analysis are:
 
 1.  “European waters notched their hottest summer months since satellite sensors began providing reliable data in 1982, according to a Reuters analysis of temperatures recorded at the seas’ surface.”
